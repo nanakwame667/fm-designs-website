@@ -1,0 +1,29 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins";
+}
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.logo img{
+    width: 180px;
+}
+
+.links ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+.links li{
+    margin-left: 60px;
+}
+.link{
+    text-decoration: none;
+    color: #204051;
+}
