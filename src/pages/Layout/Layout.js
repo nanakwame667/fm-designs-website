@@ -12,7 +12,7 @@ export default function Layout() {
           <div className='links'>
           <ul>
               <li>
-                  <Link className='link' to='/'>Home</Link>
+                  <Link className='link' to='/' active>Home</Link>
               </li>
               <li>
                   <Link className='link' to='/categories'>Categories</Link>

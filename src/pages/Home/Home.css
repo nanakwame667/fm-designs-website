@@ -1,0 +1,75 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.image {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.image img{
+    
+    width: 400px;
+    height: 550px;
+}
+
+
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 60px;
+}
+.message h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #204051;
+}
+.message p{
+    font-size: 20px;
+    color: #767676;
+}
+
+
+.btns{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    background: #204051;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.secondary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    color: #204051;
+    border: 1px solid rgb(32, 64, 81);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}

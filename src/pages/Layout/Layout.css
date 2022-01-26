@@ -27,3 +27,6 @@
     text-decoration: none;
     color: #204051;
 }
+.link:hover{
+    color: sandybrown;
+}
