@@ -5,7 +5,8 @@ import Image3 from '../../assets/images/landing-3.png';
 import Image4 from '../../assets/images/male-5.png';
 import Image5 from '../../assets/images/landing-5.png';
 import Image6 from '../../assets/images/male-4.png';
-import {Carousel} from 'antd';
+import search from '../../assets/images/search.svg';
+import {Carousel,Input} from 'antd';
 
 export default function Home() {
   return(
@@ -26,6 +27,13 @@ export default function Home() {
             <img src={Image2} alt="2"/>
             <img src={Image5} alt="5"/>
           </Carousel>
+        </div>
+        <div className='hero'>
+            <div className='search'>
+                <Input placeholder='Search'/>
+                <img src={search} alt='search'/>
+                <div className='primary' style={{height:50,width:200}}>Search</div>
+            </div>
         </div>
       </div>
   )
